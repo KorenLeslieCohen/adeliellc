@@ -1,0 +1,23 @@
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, a, a:visited, .affa-feature-icon-center .fa, .affa-counter .fa, .affa-team-profile .team-profile-name p, .affa-team-profile .team-profile-socials a:hover, .isotope-menu a:hover, .isotope-menu a.active, #footer .footer-copyright a { color:#45aeff; }
+
+a:hover { color:#444; }
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover, .isotope-menu a { color:#202020; }
+
+.btn-custom, input[type="button"], input[type="submit"], input[type="reset"], button, .carousel-slider .slick-dots li button:hover, .carousel-slider .slick-dots li.slick-active button, .post-heading-left h2:after, .post-heading-center h2:after, #header .nav > li > a:after, .affa-feature-text h4:after, .affa-skill .skill-bar .skill-bar-process, .carousel-slider.teams-row .slick-prev, .carousel-slider.teams-row .slick-next, .isotope-menu a:after { background-color:#45aeff; }
+
+.btn-custom:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover { background-color:#329cee; }
+
+.btn-play { background-image:url(images/btn-play.png); }
+.btn-play:hover { background-color:rgba(69,174,255,.1); }
+
+.bg-dark a, .bg-parallax a { color:#FFF; }
+
+#header .nav > li.menu-btn > a { background-color:#45aeff !important; }
+#header .nav > li.menu-btn > a:hover, #header .nav > li.menu-btn.active > a { background-color:#329cee !important; }
+
+@media (max-width: 480px) {
+	
+	.btn-play { background-image:url(images/btn-play-mobile.png); }
+	
+}

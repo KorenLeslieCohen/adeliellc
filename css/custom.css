@@ -1,0 +1,259 @@
+/*----NAVIGATION----*/
+
+#navigation_mobile {
+  text-align: right;
+}
+
+#navigation_mobile .nav-menu-button button.nav-menu-toggle {
+  padding-right: 20px;
+}
+
+#navigation_mobile .nav-menu-links {
+  text-align: center;
+}
+
+.invisible {
+  visibility: none;
+}
+
+.affa-one,
+.affa-five {
+  height: 200px;
+}
+
+.affa-two,
+.affa-three,
+.affa-four {
+  height: 170px;
+}
+
+.affa-faq {
+  margin-bottom: 30px;
+}
+
+h3.faq-title {
+  color: #FA120A;
+  text-align: center;
+}
+
+img.adelie {
+  max-width: 500px;
+  margin-bottom: 10px;
+}
+
+.post-heading-left h2, .post-heading-center h2 {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+}
+
+/*----HEADER----*/
+
+.post-heading-center p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.post-about p {
+  display: none;
+}
+
+.header-content-title h1 {
+  font-size: 50px;
+}
+
+#header .header-content.header-overlay40 {
+  background-color: rgba(0,0,0,.7);
+}
+
+#header .header-content .header-content-title p {
+  max-width: 700px;
+  margin-right: auto;
+  margin-left:auto;
+}
+
+.col-md-offset-2 {
+  margin-left: 9%;
+}
+
+/*----SERVICES----*/
+
+.affa-feature-icon h4,
+.affa-faq h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h3.faq-title {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.services-col-left {
+  border-right: 1px solid #D3D0CF;
+}
+
+.color-ul {
+  border-top: 1px solid #D3D0CF;
+  padding-top: 10px;
+}
+
+/*----CONTACT----*/
+
+img.contact-logo {
+  display: none;
+}
+
+
+/*----FOOTER----*/
+
+#footer .widget .footer-logo {
+  max-height: 50px;
+}
+
+p.left-footer {
+  max-width: 350px;
+}
+
+/*----MEDIA QUERIES----*/
+
+@media screen and (max-width : 1200px) {
+
+  .affa-one,
+  .affa-five {
+    height: 230px;
+  }
+
+}
+
+@media screen and (max-width : 991px) {
+
+  .col-md-offset-2 {
+    margin-left: 0%;
+  }
+
+  .container-icons{
+    width: 900px;
+  }
+
+  .col-sm-3 {
+    width: 20%;
+  }
+
+  .affa-one {
+    height: 270px;
+  }
+
+  .affa-two {
+    height: 250px;
+  }
+
+  .affa-three,
+  .affa-four {
+    height: 200px;
+  }
+
+  .affa-five {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width : 850px) {
+
+  .container-icons{
+    width: 800px;
+  }
+
+}
+
+@media screen and (max-width : 767px) {
+
+  .container-icons{
+    width: 700px;
+  }
+
+  .col-sm-3 {
+    width: 50%;
+    float: left;
+  }
+
+  .col-md-offset-new {
+    width: 100%;
+  }
+
+  img.contact-logo {
+    display: inline;
+    height: 40px;
+    margin-bottom: 20px;
+  }
+
+  .affa-faq {
+    height: auto;
+  }
+
+  .post-heading-center p {
+    line-height: 26px;
+  }
+
+}
+
+@media screen and (max-width : 700px) {
+
+  .container-icons{
+    width: 600px;
+  }
+
+}
+
+@media screen and (max-width : 600px) {
+
+  img.adelie {
+    max-width: 400px;
+  }
+
+  .container-icons{
+    width: 500px;
+  }
+
+}
+
+@media screen and (max-width : 500px) {
+
+  .container-icons{
+    width: 400px;
+  }
+
+}
+
+@media screen and (max-width : 450px) {
+
+  img.adelie {
+    max-width: 300px;
+  }
+
+}
+
+@media screen and (max-width : 400px) {
+
+  .container-icons{
+    width: 350px;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .col-lg-offset-1 {
+    margin-left: 4%;
+  }
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 992px) {
+
+  .padding-top30-md {
+    padding-top: 0px !important;
+  }
+
+}
