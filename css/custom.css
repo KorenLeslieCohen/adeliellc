@@ -116,6 +116,25 @@ p.left-footer {
   max-width: 350px;
 }
 
+p.menu-btn {
+  font-family: "Montserrat", Arial, serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  color: #FFF;
+}
+
+#footer p.menu-btn:hover,
+#footer p.menu-btn a:hover {
+  color: #FFF;
+}
+
+p.menu-btn a {
+  background-color: #FA120A !important;
+  padding: 11px 15px;
+  border-radius: 2px;
+}
+
 /*----MEDIA QUERIES----*/
 
 @media screen and (max-width : 1200px) {
