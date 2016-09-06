@@ -16,26 +16,6 @@
   visibility: none;
 }
 
-.affa-one,
-.affa-five {
-  height: 200px;
-}
-
-.affa-two,
-.affa-three,
-.affa-four {
-  height: 170px;
-}
-
-.affa-faq {
-  margin-bottom: 30px;
-}
-
-h3.faq-title {
-  color: #FA120A;
-  text-align: center;
-}
-
 img.adelie {
   max-width: 500px;
   margin-bottom: 10px;
@@ -76,6 +56,29 @@ img.adelie {
 }
 
 /*----SERVICES----*/
+
+.affa-one {
+  height: 250px;
+}
+
+.affa-five {
+  height: 220px;
+}
+
+.affa-two,
+.affa-three,
+.affa-four {
+  height: 170px;
+}
+
+.affa-faq {
+  margin-bottom: 30px;
+}
+
+h3.faq-title {
+  color: #FA120A;
+  text-align: center;
+}
 
 .affa-feature-icon h4,
 .affa-faq h4 {
@@ -135,13 +138,24 @@ p.menu-btn a {
   border-radius: 2px;
 }
 
+p.left-footer {
+  margin-bottom: 5px;
+}
+
+p.contact-btn {
+  margin-top: 25px;
+}
+
 /*----MEDIA QUERIES----*/
 
 @media screen and (max-width : 1200px) {
 
-  .affa-one,
+  .affa-one {
+    height: 275px;
+  }
+
   .affa-five {
-    height: 230px;
+    height: 250px;
   }
 
 }
@@ -161,7 +175,7 @@ p.menu-btn a {
   }
 
   .affa-one {
-    height: 270px;
+    height: 350px;
   }
 
   .affa-two {
@@ -174,7 +188,7 @@ p.menu-btn a {
   }
 
   .affa-five {
-    height: 300px;
+    height: 320px;
   }
 }
 
@@ -213,6 +227,14 @@ p.menu-btn a {
 
   .post-heading-center p {
     line-height: 26px;
+  }
+
+  #header .header-content .header-content-overlay {
+    margin-top: 240px;
+  }
+
+  #header .header-content{
+    padding-top: 200px;
   }
 
 }
@@ -257,6 +279,22 @@ p.menu-btn a {
 
   .container-icons{
     width: 350px;
+  }
+
+  #header .header-content .header-content-overlay {
+    margin-top: 140px;
+  }
+
+}
+
+@media screen and (max-width : 350px) {
+
+  .container-icons{
+    width: 320px;
+  }
+
+  #header .header-content{
+    padding-top: 120px;
   }
 
 }
