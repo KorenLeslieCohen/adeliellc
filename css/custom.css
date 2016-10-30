@@ -146,6 +146,12 @@ p.contact-btn {
   margin-top: 25px;
 }
 
+/*----TERMS----*/
+
+.terms p {
+  text-align: left;
+}
+
 /*----MEDIA QUERIES----*/
 
 @media screen and (max-width : 1200px) {
@@ -263,6 +269,10 @@ p.contact-btn {
 
   .container-icons{
     width: 400px;
+  }
+
+  .terms p {
+    font-size: 14px;
   }
 
 }
